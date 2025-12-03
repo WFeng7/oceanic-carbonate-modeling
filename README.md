@@ -148,55 +148,6 @@ Random Forest achieved validation results comparable to or exceeding current sta
 - **pCO₂ (LDEO)**: Significantly better than GRaCER (R² 0.70 vs 0.45) and LIAR+FFNN (R² 0.70 vs 0.44)
 - **TA and pH**: Competitive with or exceeding existing methods
 
-## Getting Started
-
-### Prerequisites
-
-```bash
-# Python environment
-Python 3.8+
-numpy
-pandas
-scikit-learn
-xgboost
-tensorflow
-netCDF4
-xarray
-h5netcdf
-tqdm
-matplotlib
-seaborn
-```
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/oceanic-carbonate-modeling.git
-cd oceanic-carbonate-modeling
-
-# Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt  # If available
-```
-
-### Usage
-
-1. **Data Preprocessing**:
-   - Run notebooks in `dataset-processing/` to aggregate and preprocess satellite data
-   - Use utility scripts in `utils/` for NetCDF file operations
-
-2. **Model Training**:
-   - Execute training notebooks in `model-training/` for each OCS parameter
-   - Models include feature selection and hyperparameter tuning steps
-
-3. **Validation**:
-   - In situ validation code included in training notebooks
-   - Supports multiple validation datasets
-
 ## Applications
 
 This satellite-based approach enables:
@@ -226,23 +177,6 @@ This satellite-based approach enables:
 - Integrate additional satellite-derived features
 - Develop real-time monitoring products
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```
-Feng, William. "A Solely Satellite-Based Approach to Monitoring the Oceanic 
-Carbonate System." [Year]. [Journal/Conference if published].
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
-## License
-
-[Specify your license here]
-
 ## Acknowledgments
 
 This research utilized data from:
@@ -259,7 +193,7 @@ This research utilized data from:
 
 ## Contact
 
-William Feng - [Your contact information]
+William Feng - william.feng@yale.edu, 984-244-4085
 
 ## References
 
